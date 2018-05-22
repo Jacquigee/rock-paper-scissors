@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <form id="rock-paper-scissors">
-      <div class="form-group">
+    <div class="form">
+      <form id="rock-paper-scissors">
+        <div class="form-group">
+          <select name="choice" id="choice" class="custom-select custom-select-lg mb-3" >
+            <option value="select">Select</option>
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+          </select>
 
-      </div>
-    </form>
-  </body>
+        </div>
+        <button type="Submit" name="btn btn-primary">Play</button>
+      </form>
+
+    </div>
+    <script src="Js/jquery.js"></script>
+    <script src="Js/Scripts.js" charset="utf-8"></script>
+      </body>
 </html>
